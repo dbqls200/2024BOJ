@@ -5,7 +5,7 @@
 //  Created by 김유빈 on 4/3/24.
 //
 
-impimport Foundation
+import Foundation
 
 /*
  1. line 단위로 값 받기
@@ -28,10 +28,6 @@ func _2577() {
     for i in multi {
         result[Int(String(i))!] += 1
     }
-
-//    for i in result {
-//        print(i)
-//    }
     
     print(result.map({ String($0) }).joined(separator: "\n"))
 }
@@ -54,3 +50,4 @@ func _2577_2() {
 
     print(result.map({ String($0) }).joined(separator: "\n"))
 }
+

@@ -30,3 +30,4 @@ func _1475() {
     
     print(result.max()!)
 }
+
