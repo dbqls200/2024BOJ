@@ -3,7 +3,7 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/7/24.
-//
+//  https://www.acmicpc.net/problem/1874
 
 import Foundation
 
@@ -24,10 +24,11 @@ func _1874() {
         }
         
         if stack.last == num {
-            stack.popLast()
+            stack.removeLast()
             result.append("-")
         } else {
             state = false
+            break
         }
     }
     

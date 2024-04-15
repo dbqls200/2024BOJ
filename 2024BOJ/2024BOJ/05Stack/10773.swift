@@ -3,7 +3,7 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/7/24.
-//
+//  https://www.acmicpc.net/problem/10773
 
 import Foundation
 
@@ -15,7 +15,7 @@ func _10773() {
         let num: Int = Int(readLine()!)!
         
         if num == 0 {
-            arr.popLast()
+            arr.removeLast()
         } else {
             arr.append(num)
         }
