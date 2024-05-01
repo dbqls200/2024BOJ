@@ -3,10 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/15/24.
-//
 
-import Foundation
-
+//  [카드 2] https://www.acmicpc.net/problem/2164
+//  solve
 
 func _2164() {
     // 1. 시간 초과 !
