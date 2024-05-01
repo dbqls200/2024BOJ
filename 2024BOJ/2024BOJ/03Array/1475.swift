@@ -3,9 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/3/24.
-//
 
-import Foundation
+// [방 번호] https://www.acmicpc.net/problem/1475
+// solve
 
 /*
  1. 필요한 숫자 카운팅해서 배열에 넣기
