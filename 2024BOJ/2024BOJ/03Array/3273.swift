@@ -3,9 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/4/24.
-//
 
-import Foundation
+//  [두 수의 합] https://www.acmicpc.net/problem/3273
+//  solve
 
 //func _3273() {
 //    let _ = Int(readLine()!)!
@@ -39,7 +39,7 @@ import Foundation
 //}
 
 func _3273() {
-    let n = Int(readLine()!)!
+    _ = Int(readLine()!)!
     let arr = readLine()!.split(separator: " ").map { Int(String($0))! }
     let x = Int(readLine()!)!
     
