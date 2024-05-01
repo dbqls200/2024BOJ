@@ -3,9 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/3/24.
-//
 
-import Foundation
+//  [숫자의 개수] https://www.acmicpc.net/problem/2577
+//  solve
 
 /*
  1. line 단위로 값 받기
