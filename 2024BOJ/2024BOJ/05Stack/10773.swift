@@ -3,9 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/7/24.
-//  https://www.acmicpc.net/problem/10773
 
-import Foundation
+//  [제로] https://www.acmicpc.net/problem/10773
+//  solve
 
 func _10773() {
     let k: Int = Int(readLine()!)!
