@@ -3,8 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/23/24.
-//  [그림] https://www.acmicpc.net/submit/1926/77547938
 
+//  [그림] https://www.acmicpc.net/submit/1926/77547938
+//  solve
 
 func _1926() {
     var nm: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }

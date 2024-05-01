@@ -3,10 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/20/24.
+
 //  [쇠막대기] https://www.acmicpc.net/problem/10799
 //  solve
-
-import Foundation
 
 func _10799() {
     let str = readLine()!

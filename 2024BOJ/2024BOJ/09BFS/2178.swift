@@ -3,7 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/23/24.
+
 //  [미로 탐색] https://www.acmicpc.net/problem/2178
+//  solve
 
 func _2178() {
     let nm = readLine()!.split(separator: " ").map{ Int(String($0))! }
