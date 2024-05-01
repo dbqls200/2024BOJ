@@ -3,9 +3,9 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/7/24.
-//  https://www.acmicpc.net/problem/1874
 
-import Foundation
+//  [스택 수열] https://www.acmicpc.net/problem/1874
+//  solve
 
 func _1874() {
     let n = Int(readLine()!)!
