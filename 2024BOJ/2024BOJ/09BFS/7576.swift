@@ -3,8 +3,7 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/29/24.
-//  토마토
-//  https://www.acmicpc.net/problem/7576
+//  [토마토] https://www.acmicpc.net/problem/7576
 
 // 효율적인 큐 짜기
 struct Queue {
