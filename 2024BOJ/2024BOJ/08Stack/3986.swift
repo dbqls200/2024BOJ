@@ -3,10 +3,8 @@
 //  2024BOJ
 //
 //  Created by 김유빈 on 4/20/24.
-//  좋은 단어
-//  https://www.acmicpc.net/problem/3986
-
-import Foundation
+//  [좋은 단어]https://www.acmicpc.net/problem/3986
+//  solve
 
 func _3986() {
     var n: Int = Int(readLine()!)!
