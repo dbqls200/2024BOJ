@@ -8,8 +8,8 @@
 //  solve
 
 func _1926() {
-    var nm: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
-    var (height, width) = (nm[0], nm[1])
+    let nm: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }
+    let (height, width) = (nm[0], nm[1])
     
     var graph: [[Int]] = []
     var visited: [[Bool]] = .init(repeating: .init(repeating: false, count: width), count: height)
@@ -54,12 +54,12 @@ func _1926() {
                 area += 1
                 
                 // 큐에 있는 다음 좌표 꺼내오기
-                var next = queue.removeFirst()
+                let next = queue.removeFirst()
                 
                 // 상하좌우 이동하면서 확인하기
                 for k in 0..<4 {
-                    var nx = next[0] + dx[k]
-                    var ny = next[1] + dy[k]
+                    let nx = next[0] + dx[k]
+                    let ny = next[1] + dy[k]
                     
                     // 그래프 벗어나면 넘어가!
                     if nx < 0 || nx >= height || ny < 0 || ny >= width { continue }

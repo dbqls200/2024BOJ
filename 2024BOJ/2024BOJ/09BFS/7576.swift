@@ -104,7 +104,8 @@ func _7576() {
     for i in 0..<height {
         for j in 0..<width {
             if graph[i][j] == 0 {
-                isDone = false
+                result = 0
+                break
             }
         }
     }
@@ -116,9 +117,5 @@ func _7576() {
 //    print(result)
     
     // 답 출력
-    if isDone {
-        print(result - 1)
-    } else {
-        print(-1)
-    }
+    print(result - 1)
 }
