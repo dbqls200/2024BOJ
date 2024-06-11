@@ -63,7 +63,6 @@ func _1780() {
     
     recursion(y: 0, x: 0, n: n)
     
-    result.forEach { ans in
-        print(ans)
-    }
+    result.forEach{ print($0) }
+
 }

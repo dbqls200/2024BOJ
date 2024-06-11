@@ -19,6 +19,7 @@
 		D860C17C2BCBCE7C007DCF1E /* 1021.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860C17B2BCBCE7C007DCF1E /* 1021.swift */; };
 		D860C17F2BCC4720007DCF1E /* 2164.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860C17E2BCC4720007DCF1E /* 2164.swift */; };
 		D860C1812BCCC456007DCF1E /* 5430.swift in Sources */ = {isa = PBXBuildFile; fileRef = D860C1802BCCC456007DCF1E /* 5430.swift */; };
+		D8720A242C18B438005AB163 /* 2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8720A232C18B438005AB163 /* 2630.swift */; };
 		D88AEB7F2BBD6D1B00BAAE51 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AEB7E2BBD6D1B00BAAE51 /* main.swift */; };
 		D88AEB872BBD6D8300BAAE51 /* 1475.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AEB862BBD6D8300BAAE51 /* 1475.swift */; };
 		D88AEB892BBD6D9200BAAE51 /* 2577.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AEB882BBD6D9200BAAE51 /* 2577.swift */; };
@@ -59,6 +60,7 @@
 		D860C17B2BCBCE7C007DCF1E /* 1021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1021.swift; sourceTree = "<group>"; };
 		D860C17E2BCC4720007DCF1E /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
 		D860C1802BCCC456007DCF1E /* 5430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5430.swift; sourceTree = "<group>"; };
+		D8720A232C18B438005AB163 /* 2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2630.swift; sourceTree = "<group>"; };
 		D88AEB7B2BBD6D1B00BAAE51 /* 2024BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2024BOJ; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AEB7E2BBD6D1B00BAAE51 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D88AEB862BBD6D8300BAAE51 /* 1475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1475.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			children = (
 				D8B04EE02C082122001D745E /* 17478.swift */,
 				D8B04EE22C0EB584001D745E /* 1780.swift */,
+				D8720A232C18B438005AB163 /* 2630.swift */,
 				D8B04EE42C0EB85A001D745E /* 1629.swift */,
 			);
 			path = 10Recursion;
@@ -262,6 +265,7 @@
 				D88AEB972BC7965E00BAAE51 /* 2493.swift in Sources */,
 				D860C1812BCCC456007DCF1E /* 5430.swift in Sources */,
 				D88AEB902BC2833B00BAAE51 /* 10773.swift in Sources */,
+				D8720A242C18B438005AB163 /* 2630.swift in Sources */,
 				D88AEB8B2BBE601000BAAE51 /* 3273.swift in Sources */,
 				D88AEB8E2BC260D100BAAE51 /* 1874.swift in Sources */,
 				D80C61862BD7D975003639B0 /* 1926.swift in Sources */,
