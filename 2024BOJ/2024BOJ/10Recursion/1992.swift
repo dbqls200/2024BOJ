@@ -1,41 +1,46 @@
 //
-//  2630.swift
+//  1992.swift
 //  2024BOJ
 //
 //  Created by 김유빈 on 6/12/24.
 
-//  [색종이 만들기] https://www.acmicpc.net/problem/2630
+//  [쿼드트리] https://www.acmicpc.net/problem/1992
 //  solve
 
-func _2630() {
+func _1992() {
     let n = Int(readLine()!)!
-    
-    var result = [0, 0]
     var graph: [[Int]] = []
     
-    for _ in 0..<n {
-        graph.append(readLine()!.split(separator: " ").map{ Int(String($0))! })
-    }
+    var result = ""
     
+    for _ in 0..<n {
+        // 띄어쓰기 없는 정수 입력 받기
+        graph.append(readLine()!.map{ Int(String($0))! })
+    }
+
     /*
-     1780 종이의 개수 문제랑 비섯하네.
-     얘는 3등분 말고 2등분하기.
-     
-     1. 일단 0과 1 갯수를 센다.
-        1. 한 숫자의 카운팅이 n*n이라면 == 전부 같은 수로 구성 == 하나의 종이로 인식.
-        2. 아니라면 Go Recursion
-            1. 2등분으로 쪼개서 돌리기
-     
+     4등분하기.
      */
     
     func recursion(y: Int, x: Int, n: Int) {
         var temp = [0, 0]
+        var tmp = ""
+        
+        /*
+         0과 1 갯수 카운팅
+            둘 중 한 숫자 카운팅이 n*n이면 answer에 한 번 추가하고 넘어가기
+            아니면, go recursion
+         
+         괄호는 recursion 시작할 때 열어주고 끝날 때 닫아주기
+         */
         
         for y in y..<y+n {
             for x in x..<x+n {
                 if graph[y][x] == 0 {
+                    tmp += String(0)
                     temp[0] += 1
                 } else {
+                    tmp += String(1)
                     temp[1] += 1
                 }
             }
@@ -43,24 +48,37 @@ func _2630() {
         
         for i in 0..<temp.count {
             if temp[i] == n * n {
-                result[i] += 1
+                result += String(i)
                 return
             }
         }
+        
+        result += "("
         
         recursion(y: y, x: x, n: n / 2)
         recursion(y: y, x: x + n / 2, n: n / 2)
         
         recursion(y: y + n / 2, x: x, n: n / 2)
         recursion(y: y + n / 2, x: x + n / 2, n: n / 2)
+        
+        result += ")"
     }
-    
+
     recursion(y: 0, x: 0, n: n)
     
-    // 출력
-    // 하얀색 = 0
-    // 파란색 = 1
-    result.forEach{ print($0) }
+    print(result)
 }
 
-
+/*
+8
+11110000
+11110000
+00011100
+00011100
+11110000
+11110000
+11110011
+11110011
+-
+((110(0101))(0010)1(0001))
+*/
