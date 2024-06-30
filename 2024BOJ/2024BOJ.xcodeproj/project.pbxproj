@@ -35,6 +35,7 @@
 		D8B04EE12C082122001D745E /* 17478.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B04EE02C082122001D745E /* 17478.swift */; };
 		D8B04EE32C0EB584001D745E /* 1780.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B04EE22C0EB584001D745E /* 1780.swift */; };
 		D8B04EE52C0EB85A001D745E /* 1629.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B04EE42C0EB85A001D745E /* 1629.swift */; };
+		D8C7645C2C31316700B802D8 /* 15649.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7645B2C31316700B802D8 /* 15649.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		D8B04EE02C082122001D745E /* 17478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17478.swift; sourceTree = "<group>"; };
 		D8B04EE22C0EB584001D745E /* 1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1780.swift; sourceTree = "<group>"; };
 		D8B04EE42C0EB85A001D745E /* 1629.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1629.swift; sourceTree = "<group>"; };
+		D8C7645B2C31316700B802D8 /* 15649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				D80C617C2BD3B2B5003639B0 /* 08Stack */,
 				D80C61822BD76722003639B0 /* 09BFS */,
 				D8B04EDF2C05FA84001D745E /* 10Recursion */,
+				D8C7645A2C3130FC00B802D8 /* 11BackTracking */,
 			);
 			path = 2024BOJ;
 			sourceTree = "<group>";
@@ -205,6 +208,14 @@
 				D82FC1232C282E7400404164 /* 2447.swift */,
 			);
 			path = 10Recursion;
+			sourceTree = "<group>";
+		};
+		D8C7645A2C3130FC00B802D8 /* 11BackTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D8C7645B2C31316700B802D8 /* 15649.swift */,
+			);
+			path = 11BackTracking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				D88AEB902BC2833B00BAAE51 /* 10773.swift in Sources */,
 				D8720A242C18B438005AB163 /* 2630.swift in Sources */,
 				D88AEB8B2BBE601000BAAE51 /* 3273.swift in Sources */,
+				D8C7645C2C31316700B802D8 /* 15649.swift in Sources */,
 				D88AEB8E2BC260D100BAAE51 /* 1874.swift in Sources */,
 				D80C61862BD7D975003639B0 /* 1926.swift in Sources */,
 				D82FC1242C282E7400404164 /* 2447.swift in Sources */,

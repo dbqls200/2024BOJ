@@ -5,6 +5,4 @@
 //  Created by 김유빈 on 4/3/24.
 //
 
-import Foundation
-
-_2447()
+_15649()
