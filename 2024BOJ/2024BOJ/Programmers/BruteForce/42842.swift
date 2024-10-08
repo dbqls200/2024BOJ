@@ -19,28 +19,21 @@ import Foundation
  */
 
 func solution(_ brown:Int, _ yellow:Int) -> [Int] {
-    var result: [Int] = []
-    
     let area = brown + yellow
     var width = 0
-    var length = 0
+    var outline = 0
 
     for height in 1..<area {
-        if area % height != 0 {
-            continue
-        }
+        if area % height != 0 { continue }
         
         width = area / height
         
-        length = 2 * (width + (height - 2))
+        outline = 2 * (width + (height - 2))
         
-        if brown == length {
-            result.append(width)
-            result.append(height)
-            
+        if brown == outline {
             return [width, height]
         }
     }
     
-    return result
+    return [0, 0]
 }

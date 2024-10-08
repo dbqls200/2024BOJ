@@ -5,7 +5,7 @@
 //  Created by 김유빈 on 10/4/24.
 
 //  42748 K번째수 https://school.programmers.co.kr/learn/courses/30/lessons/42748?language=swift
-//
+//  241004 solve
 
 /*
  #input
