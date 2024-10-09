@@ -7,7 +7,7 @@
 
 import Foundation
 
-var sol =    solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
+var sol =   solution(citations:  [100, 100, 100])
 
 //var sol2 = solution("hit", "cfe", ["hot", "dot", "dog", "lot", "log", "cog", "cfe"])
 
