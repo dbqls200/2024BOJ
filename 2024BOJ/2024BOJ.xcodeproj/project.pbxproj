@@ -57,6 +57,7 @@
 		D8D377922CB8EA310043D103 /* 42578.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D377912CB8EA310043D103 /* 42578.swift */; };
 		D8D377942CBA638B0043D103 /* 258712.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D377932CBA638B0043D103 /* 258712.swift */; };
 		D8D377962CBA8A190043D103 /* 42579.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D377952CBA8A190043D103 /* 42579.swift */; };
+		D8D377992CBB7C920043D103 /* 12909.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D377982CBB7C920043D103 /* 12909.swift */; };
 		D8E2A9232C8EA610008F79FD /* 42839.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2A9222C8EA610008F79FD /* 42839.swift */; };
 		D8E2A9252C913A33008F79FD /* 43162.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2A9242C913A32008F79FD /* 43162.swift */; };
 		D8E2A9272C916858008F79FD /* 43165.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E2A9262C916858008F79FD /* 43165.swift */; };
@@ -129,6 +130,7 @@
 		D8D377912CB8EA310043D103 /* 42578.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42578.swift; sourceTree = "<group>"; };
 		D8D377932CBA638B0043D103 /* 258712.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 258712.swift; sourceTree = "<group>"; };
 		D8D377952CBA8A190043D103 /* 42579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42579.swift; sourceTree = "<group>"; };
+		D8D377982CBB7C920043D103 /* 12909.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12909.swift; sourceTree = "<group>"; };
 		D8E2A9222C8EA610008F79FD /* 42839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42839.swift; sourceTree = "<group>"; };
 		D8E2A9242C913A32008F79FD /* 43162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43162.swift; sourceTree = "<group>"; };
 		D8E2A9262C916858008F79FD /* 43165.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43165.swift; sourceTree = "<group>"; };
@@ -325,6 +327,14 @@
 			path = Hash;
 			sourceTree = "<group>";
 		};
+		D8D377972CBB7C7F0043D103 /* Stack;Queue */ = {
+			isa = PBXGroup;
+			children = (
+				D8D377982CBB7C920043D103 /* 12909.swift */,
+			);
+			path = "Stack;Queue";
+			sourceTree = "<group>";
+		};
 		D8E2A9212C8EA5FE008F79FD /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +343,7 @@
 				D8C7FB692CAFA224007B1B3E /* Sorting */,
 				D8D377902CB8EA080043D103 /* Hash */,
 				D8D377932CBA638B0043D103 /* 258712.swift */,
+				D8D377972CBB7C7F0043D103 /* Stack;Queue */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -428,6 +439,7 @@
 				D8C7FB6D2CB0094C007B1B3E /* 42746.swift in Sources */,
 				D8C764622C324DF100B802D8 /* 15652.swift in Sources */,
 				D8E2A9232C8EA610008F79FD /* 42839.swift in Sources */,
+				D8D377992CBB7C920043D103 /* 12909.swift in Sources */,
 				D8D3778F2CB675BB0043D103 /* 42747.swift in Sources */,
 				D83C86D12CB574F300B4041A /* 84512.swift in Sources */,
 				D8D377962CBA8A190043D103 /* 42579.swift in Sources */,
