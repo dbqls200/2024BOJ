@@ -7,9 +7,7 @@
 
 import Foundation
 
-var sol = solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
-
+var sol =   solution([93, 30, 55], [1, 30, 5])
 //var sol2 = solution("hit", "cfe", ["hot", "dot", "dog", "lot", "log", "cog", "cfe"])
 
 print(sol)
-//print(sol2)
