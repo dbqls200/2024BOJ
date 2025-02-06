@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  7698.swift
 //  2024BOJ
 //
 //  Created by 김유빈 on 2/6/25.
