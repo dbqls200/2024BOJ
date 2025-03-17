@@ -5,7 +5,7 @@
 //  Created by 김유빈 on 1/26/25.
 
 //  161989 덧칠하기 https://school.programmers.co.kr/learn/courses/30/lessons/161989
-//  240126 solve
+//  250126 solve
 
 /*
  section[0]에 m만큼 페인트칠 -> section[0] + m 이 값은 done에 저장해두기
