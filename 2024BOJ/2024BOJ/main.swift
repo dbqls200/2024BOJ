@@ -7,11 +7,6 @@
 
 import Foundation
 
-var sol = solution(priorities: [2, 1, 3, 2], location: 2)
-print(sol)
+var solution = _181886(["nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx"])
 
-var sol2 =  solution(priorities: [1, 1, 9, 1, 1, 1], location: 0)
-
-//var sol2 = solution("hit", "cfe", ["hot", "dot", "dog", "lot", "log", "cog", "cfe"])
-
-print(sol2)
+print(solution)
